@@ -24,3 +24,5 @@ npm run dev
 ```
 
 Then you need to open the HTML File `test-client.html`
+
+<img width="1395" alt="Screenshot 2025-02-26 at 6 12 33 PM" src="https://github.com/user-attachments/assets/c48b0dc5-5367-4c1e-9dc7-f4ee221ec30d" />
