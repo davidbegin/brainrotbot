@@ -1,0 +1,118 @@
+import { Address, toHex, zeroAddress } from 'viem'
+import { mintNFT } from './utils/mintNFT'
+import { NFTContractAddress, RoyaltyPolicyLAP, account, createCommercialRemixTerms, client, defaultLicensingConfig } from './utils/utils'
+import { WIP_TOKEN_ADDRESS } from '@story-protocol/core-sdk'
+
+// BEFORE YOU RUN THIS FUNCTION: Make sure to read the README which contains
+// instructions for running this "Register Derivative Commercial" example.
+
+const main = async function () {
+    // 1. Register an IP Asset
+    //
+    // Docs: https://docs.story.foundation/docs/sdk-ipasset#registeripandattachpilterms
+    const parentTokenId = await mintNFT(account.address, 'test-uri')
+    const parentIp = await client.ipAsset.registerIpAndAttachPilTerms({
+        nftContract: NFTContractAddress,
+        tokenId: parentTokenId!,
+        licenseTermsData: [
+            {
+                terms: createCommercialRemixTerms({ commercialRevShare: 50, defaultMintingFee: 0 }),
+                licensingConfig: defaultLicensingConfig,
+            },
+        ],
+        // NOTE: The below metadata is not configured properly. It is just to make things simple.
+        // See `simpleMintAndRegister.ts` for a proper example.
+        ipMetadata: {
+            ipMetadataURI: 'test-uri',
+            ipMetadataHash: toHex('test-metadata-hash', { size: 32 }),
+            nftMetadataHash: toHex('test-nft-metadata-hash', { size: 32 }),
+            nftMetadataURI: 'test-nft-uri',
+        },
+        txOptions: { waitForTransaction: true },
+    })
+    console.log(
+        `Root IPA created at transaction hash ${parentIp.txHash}, IPA ID: ${parentIp.ipId}, License Terms IDs: ${parentIp.licenseTermsIds}`
+    )
+
+    // Log parent IP details to verify license terms and attachment prior to derivative registration
+    console.log('Parent IP details before derivative registration:', parentIp);
+
+    // The license terms IDs are not being returned in the parentIp object
+    // We need to either fetch them separately or use a fallback
+    
+    // Option 1: Log what's actually in licenseTermsIds (may be undefined)
+    console.log('License terms IDs from parent:', parentIp.licenseTermsIds);
+    
+    // Option 2: Create a variable for license terms to use, with fallback to hardcoded value
+    const licenseTermsToUse = parentIp.licenseTermsIds && parentIp.licenseTermsIds.length > 0 
+        ? parentIp.licenseTermsIds 
+        : [1n]; // Fallback to license ID 1 (adjust as needed based on your configuration)
+    
+    console.log('License terms to use for derivative:', licenseTermsToUse);
+
+    // 2. Register another (child) IP Asset
+    //
+    // Docs: https://docs.story.foundation/docs/sdk-ipasset#registerderivativeip
+    const childTokenId = await mintNFT(account.address, 'test-uri')
+    const childIp = await client.ipAsset.registerDerivativeIp({
+        nftContract: NFTContractAddress,
+        tokenId: childTokenId!,
+        derivData: {
+            parentIpIds: [parentIp.ipId as Address],
+            licenseTermsIds: licenseTermsToUse as bigint[],
+            maxMintingFee: 0,
+            maxRts: 100_000_000,
+            maxRevenueShare: 100,
+        },
+        // NOTE: The below metadata is not configured properly. It is just to make things simple.
+        // See `simpleMintAndRegister.ts` for a proper example.
+        ipMetadata: {
+            ipMetadataURI: 'test-uri',
+            ipMetadataHash: toHex('test-metadata-hash', { size: 32 }),
+            nftMetadataHash: toHex('test-nft-metadata-hash', { size: 32 }),
+            nftMetadataURI: 'test-nft-uri',
+        },
+        txOptions: { waitForTransaction: true },
+    })
+    console.log(`Derivative IPA created at transaction hash ${childIp.txHash}, IPA ID: ${childIp.ipId}`)
+
+    // 3. Pay Royalty
+    //
+    // Docs: https://docs.story.foundation/docs/sdk-royalty#payroyaltyonbehalf
+    const payRoyalty = await client.royalty.payRoyaltyOnBehalf({
+        receiverIpId: childIp.ipId as Address,
+        payerIpId: zeroAddress,
+        token: WIP_TOKEN_ADDRESS,
+        amount: 2,
+        txOptions: { waitForTransaction: true },
+    })
+    console.log(`Paid royalty at transaction hash ${payRoyalty.txHash}`)
+
+    // 4. Child Claim Revenue
+    //
+    // Docs: https://docs.story.foundation/docs/sdk-royalty#claimallrevenue
+    const childClaimRevenue = await client.royalty.claimAllRevenue({
+        ancestorIpId: childIp.ipId as Address,
+        claimer: childIp.ipId as Address,
+        childIpIds: [],
+        royaltyPolicies: [],
+        currencyTokens: [WIP_TOKEN_ADDRESS],
+    })
+    console.log('Child claimed revenue:')
+    console.dir(childClaimRevenue.claimedTokens)
+
+    // 5. Parent Claim Revenue
+    //
+    // Docs: https://docs.story.foundation/docs/sdk-royalty#claimallrevenue
+    const parentClaimRevenue = await client.royalty.claimAllRevenue({
+        ancestorIpId: parentIp.ipId as Address,
+        claimer: parentIp.ipId as Address,
+        childIpIds: [childIp.ipId as Address],
+        royaltyPolicies: [RoyaltyPolicyLAP],
+        currencyTokens: [WIP_TOKEN_ADDRESS],
+    })
+    console.log('Parent claimed revenue:')
+    console.dir(parentClaimRevenue.claimedTokens)
+}
+
+main()

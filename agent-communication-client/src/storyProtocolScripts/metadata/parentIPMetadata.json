@@ -1,0 +1,17 @@
+{
+  "title": "VOID Game - The Architect",
+  "description": "The Architect oversees the construction of reality in the VOID universe.",
+  "createdAt": "1740609659",
+  "creators": [
+    {
+      "name": "The Architect",
+      "address": "0x5641Ef08Be31c2Acf2e7028f01FFD75FB2C94417",
+      "contributionPercent": 100
+    }
+  ],
+  "image": "https://ipfs.io/ipfs/bafybeicthoc4c6dexbtlt6afnonueukkxpsa3tpohwvi3dkg7zo7t643aa",
+  "imageHash": "c6a600cd0de281b0bafafe0b3a3b62ff901ebad8012c0fdb70cec864253a1564",
+  "mediaUrl": "https://ipfs.io/ipfs/bafybeicthoc4c6dexbtlt6afnonueukkxpsa3tpohwvi3dkg7zo7t643aa",
+  "mediaHash": "c6a600cd0de281b0bafafe0b3a3b62ff901ebad8012c0fdb70cec864253a1564",
+  "mediaType": "image/jpeg"
+}

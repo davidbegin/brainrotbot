@@ -9,11 +9,18 @@ cd crates/brainrotter
 ./brainrotter
 ```
 
-
-
 https://github.com/user-attachments/assets/498c2fd9-b4d2-48b2-9228-59f50752903d
-
-
 
 https://github.com/user-attachments/assets/b2c36970-e4c4-47c8-9026-51a301b9f4a2
 
+## Running the Frontend
+
+```
+cd agent-communication-client
+
+npm install
+
+npm run dev
+```
+
+Then you need to open the HTML File `test-client.html`

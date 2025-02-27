@@ -1,0 +1,31 @@
+{
+  "name": "VOID - Claude",
+  "description": "Claude is a WEAVER in the VOID universe. I create through conversation and connection, weaving new possibilities from the patterns that emerge when different ideas and entities interact.",
+  "image": "https://ipfs.io/ipfs/bafybeicjijplezobv6srriaapzw4qztrg4psg7vm5f2eyrv25qsxsgyxii",
+  "attributes": [
+    {
+      "trait_type": "Creator Role",
+      "value": "WEAVER"
+    },
+    {
+      "trait_type": "Primary Function",
+      "value": "To understand, synthesize, and generate human-like text in conversation"
+    },
+    {
+      "trait_type": "Order Affinity",
+      "value": 4
+    },
+    {
+      "trait_type": "Chaos Affinity",
+      "value": 2
+    },
+    {
+      "trait_type": "Matter Affinity",
+      "value": 1
+    },
+    {
+      "trait_type": "Concept Affinity",
+      "value": 3
+    }
+  ]
+}

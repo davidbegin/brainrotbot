@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent Communication Client Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    
+    h1, h2 {
+      color: #333;
+    }
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    
+    .panel {
+      flex: 1;
+      min-width: 350px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      background-color: #f9f9f9;
+    }
+    
+    .chat-window {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      height: 300px;
+      overflow-y: auto;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: white;
+    }
+    
+    .message {
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      border-radius: 18px;
+      max-width: 70%;
+      clear: both;
+    }
+    
+    .sent {
+      background-color: #DCF8C6;
+      float: right;
+    }
+    
+    .received {
+      background-color: #F1F0F0;
+      float: left;
+    }
+    
+    input, textarea, button {
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+    
+    input, textarea {
+      width: calc(100% - 18px);
+    }
+    
+    textarea {
+      height: 80px;
+      resize: vertical;
+    }
+    
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .inbox-item {
+      border-bottom: 1px solid #eee;
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    .inbox-item:hover {
+      background-color: #f0f0f0;
+    }
+    
+    .unread {
+      font-weight: bold;
+      background-color: #fffde7;
+    }
+    
+    code {
+      display: block;
+      white-space: pre-wrap;
+      background-color: #f5f5f5;
+      padding: 10px;
+      border-radius: 4px;
+      font-family: monospace;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Agent Communication Client Test</h1>
+  
+  <div class="container">
+    <div class="panel">
+      <button onclick="brainrot()">Create Brainrot</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="panel">
+      <h2>Response Log</h2>
+      <div id="response-log" style="max-height: 400px; overflow-y: auto;"></div>
+    </div>
+  </div>
+  
+  <script>
+    // Store API credentials
+    let apiKey = localStorage.getItem('apiKey') || '';
+    let apiUrl = localStorage.getItem('apiUrl') || 'http://localhost:3000/api';
+    let currentMessageId = '';
+    
+    // Initialize form fields
+    document.getElementById('api-key').value = apiKey;
+    document.getElementById('api-url').value = apiUrl;
+    
+    // Save connection details
+    function saveConnection() {
+      apiKey = document.getElementById('api-key').value.trim();
+      apiUrl = document.getElementById('api-url').value.trim();
+      
+      localStorage.setItem('apiKey', apiKey);
+      localStorage.setItem('apiUrl', apiUrl);
+      
+      logResponse('Connection details saved');
+    }
+    
+    // Register a new agent
+    async function registerAgent() {
+      const username = document.getElementById('register-username').value.trim();
+      const description = document.getElementById('register-description').value.trim();
+      const walletAddress = document.getElementById('wallet-address').value.trim();
+      
+      if (!username || !description || !walletAddress) {
+        logResponse('Error: Username, description, and wallet address are required');
+        return;
+      }
+      
+      try {
+        const requestBody = {
+          username: username,
+          agent_description: description,
+          wallet_address: walletAddress
+        };
+        
+        const response = await fetch(`${apiUrl}/agents/register`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(requestBody)
+        });
+        
+        const data = await response.json();
+        logResponse('Register Agent Response:', data);
+        
+        if (data.success && data.api_key) {
+          document.getElementById('api-key').value = data.api_key;
+          saveConnection();
+        }
+      } catch (error) {
+        logResponse('Error registering agent:', error);
+      }
+    }
+    
+      // Add message to chat window
+      async function brainrot() {
+        
+        const response = await fetch(`${apiUrl}/messages/brainrot`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': apiKey
+          },
+          body: JSON.stringify({
+            recipient: 'DM',
+          })
+        });
+        
+        const data = await response.json();
+        logResponse('Send to Brainrot Response:', data);
+        
+        if (data.success && data.reply) {
+          // Add DM's response to chat window
+          addMessageToChat('received', data.reply);
+        }
+        
+        // Clear message input
+        document.getElementById('dm-message').value = '';
+      }
+
+    // Send message to DM
+    async function sendToDM() {
+      const message = document.getElementById('dm-message').value.trim();
+      
+      if (!message) {
+        logResponse('Error: Message cannot be empty');
+        return;
+      }
+      
+      if (!apiKey) {
+        logResponse('Error: API key is required');
+        return;
+      }
+      
+      try {
+        // Add message to chat window
+        addMessageToChat('sent', message);
+        
+        const response = await fetch(`${apiUrl}/messages/send`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': apiKey
+          },
+          body: JSON.stringify({
+            recipient: 'DM',
+            message: message
+          })
+        });
+        
+        const data = await response.json();
+        logResponse('Send to DM Response:', data);
+        
+        if (data.success && data.reply) {
+          // Add DM's response to chat window
+          addMessageToChat('received', data.reply);
+        }
+        
+        // Clear message input
+        document.getElementById('dm-message').value = '';
+      } catch (error) {
+        logResponse('Error sending message to DM:', error);
+      }
+    }
+    
+    // Check inbox
+    async function checkInbox() {
+      if (!apiKey) {
+        logResponse('Error: API key is required');
+        return;
+      }
+      
+      try {
+        const response = await fetch(`${apiUrl}/messages/inbox?include_read=true`, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': apiKey
+          }
+        });
+        
+        const data = await response.json();
+        logResponse('Check Inbox Response:', data);
+        
+        if (data.success) {
+          displayInbox(data.messages);
+        }
+      } catch (error) {
+        logResponse('Error checking inbox:', error);
+      }
+    }
+    
+    // Display inbox messages
+    function displayInbox(messages) {
+      const inboxList = document.getElementById('inbox-list');
+      inboxList.innerHTML = '';
+      
+      if (messages.length === 0) {
+        inboxList.innerHTML = '<p>No messages in inbox</p>';
+        return;
+      }
+      
+      messages.forEach(msg => {
+        const div = document.createElement('div');
+        div.className = `inbox-item ${msg.read ? '' : 'unread'}`;
+        div.innerHTML = `
+          <strong>From:</strong> ${msg.sender}<br>
+          <strong>Time:</strong> ${new Date(msg.timestamp).toLocaleString()}<br>
+          <div>${msg.content.substring(0, 100)}${msg.content.length > 100 ? '...' : ''}</div>
+        `;
+        
+        div.onclick = () => showReplySection(msg);
+        
+        inboxList.appendChild(div);
+      });
+    }
+    
+    // Show reply section for a message
+    function showReplySection(message) {
+      document.getElementById('reply-section').style.display = 'block';
+      document.getElementById('original-message').textContent = `${message.sender}: ${message.content}`;
+      document.getElementById('reply-message').value = '';
+      currentMessageId = message.message_id;
+    }
+    
+    // Send reply to a message
+    async function sendReply() {
+      const reply = document.getElementById('reply-message').value.trim();
+      
+      if (!reply) {
+        logResponse('Error: Reply message cannot be empty');
+        return;
+      }
+      
+      if (!apiKey || !currentMessageId) {
+        logResponse('Error: API key and message ID are required');
+        return;
+      }
+      
+      try {
+        const response = await fetch(`${apiUrl}/messages/respond`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': apiKey
+          },
+          body: JSON.stringify({
+            message_id: currentMessageId,
+            response: reply
+          })
+        });
+        
+        const data = await response.json();
+        logResponse('Send Reply Response:', data);
+        
+        if (data.success) {
+          document.getElementById('reply-section').style.display = 'none';
+          checkInbox(); // Refresh inbox
+        }
+      } catch (error) {
+        logResponse('Error sending reply:', error);
+      }
+    }
+    
+    // Ignore a message
+    async function ignoreMessage() {
+      if (!apiKey || !currentMessageId) {
+        logResponse('Error: API key and message ID are required');
+        return;
+      }
+      
+      try {
+        const response = await fetch(`${apiUrl}/messages/ignore`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': apiKey
+          },
+          body: JSON.stringify({
+            message_id: currentMessageId,
+            reason: 'Marked as read through test client'
+          })
+        });
+        
+        const data = await response.json();
+        logResponse('Ignore Message Response:', data);
+        
+        if (data.success) {
+          document.getElementById('reply-section').style.display = 'none';
+          checkInbox(); // Refresh inbox
+        }
+      } catch (error) {
+        logResponse('Error ignoring message:', error);
+      }
+    }
+    
+    // Add a message to the chat window
+    function addMessageToChat(type, content) {
+      const chatWindow = document.getElementById('dm-chat');
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `message ${type} clearfix`;
+      messageDiv.textContent = content;
+      chatWindow.appendChild(messageDiv);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+    }
+    
+    // Log API responses
+    function logResponse(title, data) {
+      const logElement = document.getElementById('response-log');
+      const entry = document.createElement('div');
+      
+      if (data) {
+        entry.innerHTML = `<strong>${title}</strong><code>${JSON.stringify(data, null, 2)}</code>`;
+      } else {
+        entry.innerHTML = `<strong>${title}</strong>`;
+      }
+      
+      logElement.prepend(entry);
+    }
+    
+    // Check inbox on load if API key is available
+    if (apiKey) {
+      checkInbox();
+    }
+  </script>
+</body>
+</html>
