@@ -249,21 +249,21 @@ pub async fn run_tweet_cycle(
     scraper: &mut Scraper,
     openai_client: &providers::openai::Client,
 ) -> Result<()> {
-    let run_id = 1740592533;
-
-    let sub = subtitle_hub::SubtitleLine {
-        start: 1.0,
-        end: 2.0,
-        text: "noice orca".to_string(),
-    };
-
-    let subtitles = vec![sub];
-    image_action::create_images_for_subtitles(run_id, &subtitles).await?;
+    //let run_id = 1740592533;
     //
+    //let sub = subtitle_hub::SubtitleLine {
+    //    start: 1.0,
+    //    end: 2.0,
+    //    text: "noice orca".to_string(),
+    //};
     //
-    //let audio_path = format!("./tmp/{}/tts.mp3", run_id);
-    //let _result = ffmpeg_wrapper::create_video_from_filelist_and_audio(run_id, &audio_path);
-    return Ok(());
+    //let subtitles = vec![sub];
+    //image_action::create_images_for_subtitles(run_id, &subtitles).await?;
+    ////
+    ////
+    ////let audio_path = format!("./tmp/{}/tts.mp3", run_id);
+    ////let _result = ffmpeg_wrapper::create_video_from_filelist_and_audio(run_id, &audio_path);
+    //return Ok(());
 
     //let run_id = 1739943571;
     //let audio_path = "./tmp/1739943571/tts.mp3";
