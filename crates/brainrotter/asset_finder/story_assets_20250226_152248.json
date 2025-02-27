@@ -1,0 +1,1855 @@
+{
+  "contract": {
+    "address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+    "name": "Programmable IP License Token",
+    "symbol": "PILicenseToken",
+    "total_supply": 17868
+  },
+  "assets": [
+    {
+      "token_id": 2,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzIiLCJkZXNjcmlwdGlvbiI6ICJMaWNlbnNlIGFncmVlbWVudCBzdGF0aW5nIHRoZSB0ZXJtcyBvZiBhIFN0b3J5IFByb3RvY29sIElQQXNzZXQiLCJleHRlcm5hbF91cmwiOiAiaHR0cHM6Ly9wcm90b2NvbC5zdG9yeXByb3RvY29sLnh5ei9pcGEvMHgwYzBhOTc2NTRmNDE3M2Y4OGY5MTc5YjRiMzU5ZjM0OTc0MzgwNTRjIiwiaW1hZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL3N0b3J5cHJvdG9jb2wvcHJvdG9jb2wtY29yZS9ibG9iL21haW4vYXNzZXRzL2xpY2Vuc2UtaW1hZ2UuZ2lmIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiUm95YWx0eSBQb2xpY3kiLCAidmFsdWUiOiAiMHg5MTU2ZTYwM2M5NDk0ODE4ODNiMWQzMzU1YzZmMTEzMmQxOTFmYzQxIn0seyJ0cmFpdF90eXBlIjogIkRlZmF1bHQgTWludGluZyBGZWUiLCAidmFsdWUiOiAiMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAxMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHgwYzBhOTc2NTRmNDE3M2Y4OGY5MTc5YjRiMzU5ZjM0OTc0MzgwNTRjIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiNyJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #2",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x0c0a97654f4173f88f9179b4b359f3497438054c",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x0c0a97654f4173f88f9179b4b359f3497438054c"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 7,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzciLCJkZXNjcmlwdGlvbiI6ICJMaWNlbnNlIGFncmVlbWVudCBzdGF0aW5nIHRoZSB0ZXJtcyBvZiBhIFN0b3J5IFByb3RvY29sIElQQXNzZXQiLCJleHRlcm5hbF91cmwiOiAiaHR0cHM6Ly9wcm90b2NvbC5zdG9yeXByb3RvY29sLnh5ei9pcGEvMHhkMTEwMTIzZjliZDVlOWU5NDY4ZmFjMzc0ZjBiM2QzNDcwZmM2NzBlIiwiaW1hZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL3N0b3J5cHJvdG9jb2wvcHJvdG9jb2wtY29yZS9ibG9iL21haW4vYXNzZXRzL2xpY2Vuc2UtaW1hZ2UuZ2lmIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiUm95YWx0eSBQb2xpY3kiLCAidmFsdWUiOiAiMHg5MTU2ZTYwM2M5NDk0ODE4ODNiMWQzMzU1YzZmMTEzMmQxOTFmYzQxIn0seyJ0cmFpdF90eXBlIjogIkRlZmF1bHQgTWludGluZyBGZWUiLCAidmFsdWUiOiAiMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAxMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHhkMTEwMTIzZjliZDVlOWU5NDY4ZmFjMzc0ZjBiM2QzNDcwZmM2NzBlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiNyJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #7",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0xd110123f9bd5e9e9468fac374f0b3d3470fc670e",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0xd110123f9bd5e9e9468fac374f0b3d3470fc670e"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 9,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzkiLCJkZXNjcmlwdGlvbiI6ICJMaWNlbnNlIGFncmVlbWVudCBzdGF0aW5nIHRoZSB0ZXJtcyBvZiBhIFN0b3J5IFByb3RvY29sIElQQXNzZXQiLCJleHRlcm5hbF91cmwiOiAiaHR0cHM6Ly9wcm90b2NvbC5zdG9yeXByb3RvY29sLnh5ei9pcGEvMHg3MmY2Y2E2NmY5NDM1YWQ3OTI1NDg0YzUzYjhhM2ZkZjgzZTM1ZGYzIiwiaW1hZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL3N0b3J5cHJvdG9jb2wvcHJvdG9jb2wtY29yZS9ibG9iL21haW4vYXNzZXRzL2xpY2Vuc2UtaW1hZ2UuZ2lmIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiUm95YWx0eSBQb2xpY3kiLCAidmFsdWUiOiAiMHg5MTU2ZTYwM2M5NDk0ODE4ODNiMWQzMzU1YzZmMTEzMmQxOTFmYzQxIn0seyJ0cmFpdF90eXBlIjogIkRlZmF1bHQgTWludGluZyBGZWUiLCAidmFsdWUiOiAiMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAxMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHg3MmY2Y2E2NmY5NDM1YWQ3OTI1NDg0YzUzYjhhM2ZkZjgzZTM1ZGYzIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiNyJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #9",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x72f6ca66f9435ad7925484c53b8a3fdf83e35df3",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x72f6ca66f9435ad7925484c53b8a3fdf83e35df3"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 6,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzYiLCJkZXNjcmlwdGlvbiI6ICJMaWNlbnNlIGFncmVlbWVudCBzdGF0aW5nIHRoZSB0ZXJtcyBvZiBhIFN0b3J5IFByb3RvY29sIElQQXNzZXQiLCJleHRlcm5hbF91cmwiOiAiaHR0cHM6Ly9wcm90b2NvbC5zdG9yeXByb3RvY29sLnh5ei9pcGEvMHg0ZDBlNzQ3YzMyOGU3MjFiMTdiMmViM2FhZTIzYmE3MzY4MDYzNDY4IiwiaW1hZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL3N0b3J5cHJvdG9jb2wvcHJvdG9jb2wtY29yZS9ibG9iL21haW4vYXNzZXRzL2xpY2Vuc2UtaW1hZ2UuZ2lmIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiUm95YWx0eSBQb2xpY3kiLCAidmFsdWUiOiAiMHg5MTU2ZTYwM2M5NDk0ODE4ODNiMWQzMzU1YzZmMTEzMmQxOTFmYzQxIn0seyJ0cmFpdF90eXBlIjogIkRlZmF1bHQgTWludGluZyBGZWUiLCAidmFsdWUiOiAiMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAxMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHg0ZDBlNzQ3YzMyOGU3MjFiMTdiMmViM2FhZTIzYmE3MzY4MDYzNDY4In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiNyJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #6",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x4d0e747c328e721b17b2eb3aae23ba7368063468",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x4d0e747c328e721b17b2eb3aae23ba7368063468"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 3,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzMiLCJkZXNjcmlwdGlvbiI6ICJMaWNlbnNlIGFncmVlbWVudCBzdGF0aW5nIHRoZSB0ZXJtcyBvZiBhIFN0b3J5IFByb3RvY29sIElQQXNzZXQiLCJleHRlcm5hbF91cmwiOiAiaHR0cHM6Ly9wcm90b2NvbC5zdG9yeXByb3RvY29sLnh5ei9pcGEvMHg2MWYzYzFkMzhiYmNlMzdmYTMwMWI3ZTM4Yzg0YWE1MGVhYjJlMTIwIiwiaW1hZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL3N0b3J5cHJvdG9jb2wvcHJvdG9jb2wtY29yZS9ibG9iL21haW4vYXNzZXRzL2xpY2Vuc2UtaW1hZ2UuZ2lmIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiUm95YWx0eSBQb2xpY3kiLCAidmFsdWUiOiAiMHg5MTU2ZTYwM2M5NDk0ODE4ODNiMWQzMzU1YzZmMTEzMmQxOTFmYzQxIn0seyJ0cmFpdF90eXBlIjogIkRlZmF1bHQgTWludGluZyBGZWUiLCAidmFsdWUiOiAiMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAxMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHg2MWYzYzFkMzhiYmNlMzdmYTMwMWI3ZTM4Yzg0YWE1MGVhYjJlMTIwIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiNyJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #3",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x61f3c1d38bbce37fa301b7e38c84aa50eab2e120",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x61f3c1d38bbce37fa301b7e38c84aa50eab2e120"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 10,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzEwIiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4NTBlZDJiOTQ0ZjMwMDEwNGZlZjk5MmY1YTQxMDU4NGZkMGQ2ZjZiNSIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4OTE1NmU2MDNjOTQ5NDgxODgzYjFkMzM1NWM2ZjExMzJkMTkxZmM0MSJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweGYyMTA0ODMzZDM4NmEyNzM0YTRlYjNiOGFkNmZjNjgxMmYyOWUzOGUifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgQXR0cmlidXRpb24iLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFJldmVudWUgU2hhcmUiLCAibWF4X3ZhbHVlIjogMTAwMCwgInZhbHVlIjogMTAwMDAwMDB9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsaXplciBDaGVja2VyIiwgInZhbHVlIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBbGxvd2VkIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQXR0cmlidXRpb24iLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZXZlbnVlIENlaWxpbmciLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQXBwcm92YWwiLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgUmVjaXByb2NhbCIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc29yIiwgInZhbHVlIjogIjB4NTBlZDJiOTQ0ZjMwMDEwNGZlZjk5MmY1YTQxMDU4NGZkMGQ2ZjZiNSJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlbXBsYXRlIiwgInZhbHVlIjogIjB4MmU4OTZiMGIyZmRiNzQ1NzQ5OWI1NmFhYWE0YWU1NWJjYjRjZDMxNiJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlcm1zIElEIiwgInZhbHVlIjogIjcifSx7InRyYWl0X3R5cGUiOiAiVHJhbnNmZXJhYmxlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiUmV2b2tlZCIsICJ2YWx1ZSI6ICJmYWxzZSJ9XX0=",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #10",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x50ed2b944f300104fef992f5a410584fd0d6f6b5",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x50ed2b944f300104fef992f5a410584fd0d6f6b5"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 5,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzUiLCJkZXNjcmlwdGlvbiI6ICJMaWNlbnNlIGFncmVlbWVudCBzdGF0aW5nIHRoZSB0ZXJtcyBvZiBhIFN0b3J5IFByb3RvY29sIElQQXNzZXQiLCJleHRlcm5hbF91cmwiOiAiaHR0cHM6Ly9wcm90b2NvbC5zdG9yeXByb3RvY29sLnh5ei9pcGEvMHhiNDI3NTUxODA4ODlkMDFkM2YyNjg2MjAwZTk4ZTgwMTY3ZDBjNWNkIiwiaW1hZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL3N0b3J5cHJvdG9jb2wvcHJvdG9jb2wtY29yZS9ibG9iL21haW4vYXNzZXRzL2xpY2Vuc2UtaW1hZ2UuZ2lmIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiUm95YWx0eSBQb2xpY3kiLCAidmFsdWUiOiAiMHg5MTU2ZTYwM2M5NDk0ODE4ODNiMWQzMzU1YzZmMTEzMmQxOTFmYzQxIn0seyJ0cmFpdF90eXBlIjogIkRlZmF1bHQgTWludGluZyBGZWUiLCAidmFsdWUiOiAiMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAxMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHhiNDI3NTUxODA4ODlkMDFkM2YyNjg2MjAwZTk4ZTgwMTY3ZDBjNWNkIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiNyJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #5",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0xb42755180889d01d3f2686200e98e80167d0c5cd",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0xb42755180889d01d3f2686200e98e80167d0c5cd"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 8,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzgiLCJkZXNjcmlwdGlvbiI6ICJMaWNlbnNlIGFncmVlbWVudCBzdGF0aW5nIHRoZSB0ZXJtcyBvZiBhIFN0b3J5IFByb3RvY29sIElQQXNzZXQiLCJleHRlcm5hbF91cmwiOiAiaHR0cHM6Ly9wcm90b2NvbC5zdG9yeXByb3RvY29sLnh5ei9pcGEvMHhjMmI0ZGVlYzJhNjc0MzQ1NDJkMGYzNjM1YmExM2EzN2M3ZDhkOWExIiwiaW1hZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL3N0b3J5cHJvdG9jb2wvcHJvdG9jb2wtY29yZS9ibG9iL21haW4vYXNzZXRzL2xpY2Vuc2UtaW1hZ2UuZ2lmIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiUm95YWx0eSBQb2xpY3kiLCAidmFsdWUiOiAiMHg5MTU2ZTYwM2M5NDk0ODE4ODNiMWQzMzU1YzZmMTEzMmQxOTFmYzQxIn0seyJ0cmFpdF90eXBlIjogIkRlZmF1bHQgTWludGluZyBGZWUiLCAidmFsdWUiOiAiMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAxMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHhjMmI0ZGVlYzJhNjc0MzQ1NDJkMGYzNjM1YmExM2EzN2M3ZDhkOWExIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiNyJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #8",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0xc2b4deec2a67434542d0f3635ba13a37c7d8d9a1",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0xc2b4deec2a67434542d0f3635ba13a37c7d8d9a1"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 11,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzExIiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4ZDZlOTIwYjU0MDFjMGVhNGE3NzBlYzU3Y2RiOGMxM2VlNzI4NGU2NyIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4OTE1NmU2MDNjOTQ5NDgxODgzYjFkMzM1NWM2ZjExMzJkMTkxZmM0MSJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweGYyMTA0ODMzZDM4NmEyNzM0YTRlYjNiOGFkNmZjNjgxMmYyOWUzOGUifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgQXR0cmlidXRpb24iLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFJldmVudWUgU2hhcmUiLCAibWF4X3ZhbHVlIjogMTAwMCwgInZhbHVlIjogMTAwMDAwMDB9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsaXplciBDaGVja2VyIiwgInZhbHVlIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBbGxvd2VkIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQXR0cmlidXRpb24iLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZXZlbnVlIENlaWxpbmciLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQXBwcm92YWwiLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgUmVjaXByb2NhbCIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc29yIiwgInZhbHVlIjogIjB4ZDZlOTIwYjU0MDFjMGVhNGE3NzBlYzU3Y2RiOGMxM2VlNzI4NGU2NyJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlbXBsYXRlIiwgInZhbHVlIjogIjB4MmU4OTZiMGIyZmRiNzQ1NzQ5OWI1NmFhYWE0YWU1NWJjYjRjZDMxNiJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlcm1zIElEIiwgInZhbHVlIjogIjcifSx7InRyYWl0X3R5cGUiOiAiVHJhbnNmZXJhYmxlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiUmV2b2tlZCIsICJ2YWx1ZSI6ICJmYWxzZSJ9XX0=",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #11",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0xd6e920b5401c0ea4a770ec57cdb8c13ee7284e67",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0xd6e920b5401c0ea4a770ec57cdb8c13ee7284e67"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 4,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzQiLCJkZXNjcmlwdGlvbiI6ICJMaWNlbnNlIGFncmVlbWVudCBzdGF0aW5nIHRoZSB0ZXJtcyBvZiBhIFN0b3J5IFByb3RvY29sIElQQXNzZXQiLCJleHRlcm5hbF91cmwiOiAiaHR0cHM6Ly9wcm90b2NvbC5zdG9yeXByb3RvY29sLnh5ei9pcGEvMHgzYjg3ZmZhNjg5NzI3YWE4NTkwZmRmMWI0ZjdhZTAzN2U4NjAzNTQxIiwiaW1hZ2UiOiAiaHR0cHM6Ly9naXRodWIuY29tL3N0b3J5cHJvdG9jb2wvcHJvdG9jb2wtY29yZS9ibG9iL21haW4vYXNzZXRzL2xpY2Vuc2UtaW1hZ2UuZ2lmIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiUm95YWx0eSBQb2xpY3kiLCAidmFsdWUiOiAiMHg5MTU2ZTYwM2M5NDk0ODE4ODNiMWQzMzU1YzZmMTEzMmQxOTFmYzQxIn0seyJ0cmFpdF90eXBlIjogIkRlZmF1bHQgTWludGluZyBGZWUiLCAidmFsdWUiOiAiMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAxMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHgzYjg3ZmZhNjg5NzI3YWE4NTkwZmRmMWI0ZjdhZTAzN2U4NjAzNTQxIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiNyJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #4",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x3b87ffa689727aa8590fdf1b4f7ae037e8603541",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x3b87ffa689727aa8590fdf1b4f7ae037e8603541"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "7"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 13,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzEzIiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4OTdiMzdiMDk2NWVjZGM2NDJmYWY5MzFlNDFmNmFiZTAyOGY1MjQxMyIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4YmU1NGZiMTY4YjNjOTgyYjdhYWU2MGRiNmNmNzViZDg0NDdiMzkwZSJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjUwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJFeHBpcmF0aW9uIiwgInZhbHVlIjogIm5ldmVyIn0seyJ0cmFpdF90eXBlIjogIkN1cnJlbmN5IiwgInZhbHVlIjogIjB4ZjIxMDQ4MzNkMzg2YTI3MzRhNGViM2I4YWQ2ZmM2ODEyZjI5ZTM4ZSJ9LHsidHJhaXRfdHlwZSI6ICJVUkkiLCAidmFsdWUiOiAiIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgVXNlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAyMDAwMDAwMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBdHRyaWJ1dGlvbiIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHg5N2IzN2IwOTY1ZWNkYzY0MmZhZjkzMWU0MWY2YWJlMDI4ZjUyNDEzIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiOSJ9LHsidHJhaXRfdHlwZSI6ICJUcmFuc2ZlcmFibGUiLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJSZXZva2VkIiwgInZhbHVlIjogImZhbHNlIn1dfQ==",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #13",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x97b37b0965ecdc642faf931e41f6abe028f52413",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0xbe54fb168b3c982b7aae60db6cf75bd8447b390e"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "500000000000000000000"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 20000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x97b37b0965ecdc642faf931e41f6abe028f52413"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "9"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 14,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzE0IiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4NjAxNTdiOTJlNjljMWVhNjNmZGIxM2IyZWZlYzNkNDVjYmM0MWUzNyIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4YmU1NGZiMTY4YjNjOTgyYjdhYWU2MGRiNmNmNzViZDg0NDdiMzkwZSJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweDE1MTQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgQXR0cmlidXRpb24iLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFJldmVudWUgU2hhcmUiLCAibWF4X3ZhbHVlIjogMTAwMCwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQXR0cmlidXRpb24iLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFwcHJvdmFsIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJlY2lwcm9jYWwiLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHg2MDE1N2I5MmU2OWMxZWE2M2ZkYjEzYjJlZmVjM2Q0NWNiYzQxZTM3In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiMTAifSx7InRyYWl0X3R5cGUiOiAiVHJhbnNmZXJhYmxlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiUmV2b2tlZCIsICJ2YWx1ZSI6ICJmYWxzZSJ9XX0=",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #14",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x60157b92e69c1ea63fdb13b2efec3d45cbc41e37",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0xbe54fb168b3c982b7aae60db6cf75bd8447b390e"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0x1514000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 0
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "false"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x60157b92e69c1ea63fdb13b2efec3d45cbc41e37"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "10"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 12,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzEyIiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4YjZiNTJiNGNmYTgyODhjYjY1YTgyMTY3OGIyMTRmMTU2NjMxNzBmNCIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4OTE1NmU2MDNjOTQ5NDgxODgzYjFkMzM1NWM2ZjExMzJkMTkxZmM0MSJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjEwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweGYyMTA0ODMzZDM4NmEyNzM0YTRlYjNiOGFkNmZjNjgxMmYyOWUzOGUifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgQXR0cmlidXRpb24iLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFJldmVudWUgU2hhcmUiLCAibWF4X3ZhbHVlIjogMTAwMCwgInZhbHVlIjogMTAwMDAwMDB9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsaXplciBDaGVja2VyIiwgInZhbHVlIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBbGxvd2VkIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQXR0cmlidXRpb24iLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZXZlbnVlIENlaWxpbmciLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQXBwcm92YWwiLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgUmVjaXByb2NhbCIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc29yIiwgInZhbHVlIjogIjB4YjZiNTJiNGNmYTgyODhjYjY1YTgyMTY3OGIyMTRmMTU2NjMxNzBmNCJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlbXBsYXRlIiwgInZhbHVlIjogIjB4MmU4OTZiMGIyZmRiNzQ1NzQ5OWI1NmFhYWE0YWU1NWJjYjRjZDMxNiJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlcm1zIElEIiwgInZhbHVlIjogIjgifSx7InRyYWl0X3R5cGUiOiAiVHJhbnNmZXJhYmxlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiUmV2b2tlZCIsICJ2YWx1ZSI6ICJmYWxzZSJ9XX0=",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #12",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0xb6b52b4cfa8288cb65a821678b214f15663170f4",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x9156e603c949481883b1d3355c6f1132d191fc41"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "1000000000000000000000"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0xf2104833d386a2734a4eb3b8ad6fc6812f29e38e"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 10000000
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "true"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0xb6b52b4cfa8288cb65a821678b214f15663170f4"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "8"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 15,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzE1IiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4MDZjNGUzZDdiN2YxNDE2Y2IyNWMwODYxMDNlZjRkZDViZGNmYjE1NiIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4YmU1NGZiMTY4YjNjOTgyYjdhYWU2MGRiNmNmNzViZDg0NDdiMzkwZSJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweDE1MTQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgQXR0cmlidXRpb24iLCAidmFsdWUiOiAidHJ1ZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFJldmVudWUgU2hhcmUiLCAibWF4X3ZhbHVlIjogMTAwMCwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWxpemVyIENoZWNrZXIiLCAidmFsdWUiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFsbG93ZWQiLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQXR0cmlidXRpb24iLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgUmV2ZW51ZSBDZWlsaW5nIiwgInZhbHVlIjogMH0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEFwcHJvdmFsIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJlY2lwcm9jYWwiLCAidmFsdWUiOiAiZmFsc2UifSx7InRyYWl0X3R5cGUiOiAiTGljZW5zb3IiLCAidmFsdWUiOiAiMHgwNmM0ZTNkN2I3ZjE0MTZjYjI1YzA4NjEwM2VmNGRkNWJkY2ZiMTU2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVtcGxhdGUiLCAidmFsdWUiOiAiMHgyZTg5NmIwYjJmZGI3NDU3NDk5YjU2YWFhYTRhZTU1YmNiNGNkMzE2In0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc2UgVGVybXMgSUQiLCAidmFsdWUiOiAiMTAifSx7InRyYWl0X3R5cGUiOiAiVHJhbnNmZXJhYmxlIiwgInZhbHVlIjogInRydWUifSx7InRyYWl0X3R5cGUiOiAiUmV2b2tlZCIsICJ2YWx1ZSI6ICJmYWxzZSJ9XX0=",
+      "owner": "0x2BD0CF9b2079a2e34869E0ed2336846E1074a1bD",
+      "metadata": {
+        "name": "Story Protocol License #15",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x06c4e3d7b7f1416cb25c086103ef4dd5bdcfb156",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0xbe54fb168b3c982b7aae60db6cf75bd8447b390e"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0x1514000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "true"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 0
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "false"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x06c4e3d7b7f1416cb25c086103ef4dd5bdcfb156"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "10"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 17,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzE3IiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBSZXZlbnVlIENlaWxpbmciLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbGl6ZXIgQ2hlY2tlciIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQWxsb3dlZCIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc29yIiwgInZhbHVlIjogIjB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlbXBsYXRlIiwgInZhbHVlIjogIjB4MmU4OTZiMGIyZmRiNzQ1NzQ5OWI1NmFhYWE0YWU1NWJjYjRjZDMxNiJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlcm1zIElEIiwgInZhbHVlIjogIjExIn0seyJ0cmFpdF90eXBlIjogIlRyYW5zZmVyYWJsZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIlJldm9rZWQiLCAidmFsdWUiOiAiZmFsc2UifV19",
+      "owner": "0xe83F899BD5790e1be9b6B51ffcF32b3b2b1F5a9e",
+      "metadata": {
+        "name": "Story Protocol License #17",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 0
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "false"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "11"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 16,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzE2IiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBSZXZlbnVlIENlaWxpbmciLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbGl6ZXIgQ2hlY2tlciIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQWxsb3dlZCIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc29yIiwgInZhbHVlIjogIjB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlbXBsYXRlIiwgInZhbHVlIjogIjB4MmU4OTZiMGIyZmRiNzQ1NzQ5OWI1NmFhYWE0YWU1NWJjYjRjZDMxNiJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlcm1zIElEIiwgInZhbHVlIjogIjExIn0seyJ0cmFpdF90eXBlIjogIlRyYW5zZmVyYWJsZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIlJldm9rZWQiLCAidmFsdWUiOiAiZmFsc2UifV19",
+      "owner": "0xe83F899BD5790e1be9b6B51ffcF32b3b2b1F5a9e",
+      "metadata": {
+        "name": "Story Protocol License #16",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 0
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "false"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "11"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 18,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzE4IiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBSZXZlbnVlIENlaWxpbmciLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbGl6ZXIgQ2hlY2tlciIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQWxsb3dlZCIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc29yIiwgInZhbHVlIjogIjB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlbXBsYXRlIiwgInZhbHVlIjogIjB4MmU4OTZiMGIyZmRiNzQ1NzQ5OWI1NmFhYWE0YWU1NWJjYjRjZDMxNiJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlcm1zIElEIiwgInZhbHVlIjogIjExIn0seyJ0cmFpdF90eXBlIjogIlRyYW5zZmVyYWJsZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIlJldm9rZWQiLCAidmFsdWUiOiAiZmFsc2UifV19",
+      "owner": "0xe83F899BD5790e1be9b6B51ffcF32b3b2b1F5a9e",
+      "metadata": {
+        "name": "Story Protocol License #18",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 0
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "false"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "11"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 19,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzE5IiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBSZXZlbnVlIENlaWxpbmciLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbGl6ZXIgQ2hlY2tlciIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQWxsb3dlZCIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc29yIiwgInZhbHVlIjogIjB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlbXBsYXRlIiwgInZhbHVlIjogIjB4MmU4OTZiMGIyZmRiNzQ1NzQ5OWI1NmFhYWE0YWU1NWJjYjRjZDMxNiJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlcm1zIElEIiwgInZhbHVlIjogIjExIn0seyJ0cmFpdF90eXBlIjogIlRyYW5zZmVyYWJsZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIlJldm9rZWQiLCAidmFsdWUiOiAiZmFsc2UifV19",
+      "owner": "0xe83F899BD5790e1be9b6B51ffcF32b3b2b1F5a9e",
+      "metadata": {
+        "name": "Story Protocol License #19",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 0
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "false"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "11"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    },
+    {
+      "token_id": 20,
+      "token_address": "0xFe3838BFb30B34170F00030B52eA4893d8aAC6bC",
+      "token_name": "Programmable IP License Token",
+      "token_symbol": "PILicenseToken",
+      "token_uri": "data:application/json;base64,eyJuYW1lIjogIlN0b3J5IFByb3RvY29sIExpY2Vuc2UgIzIwIiwiZGVzY3JpcHRpb24iOiAiTGljZW5zZSBhZ3JlZW1lbnQgc3RhdGluZyB0aGUgdGVybXMgb2YgYSBTdG9yeSBQcm90b2NvbCBJUEFzc2V0IiwiZXh0ZXJuYWxfdXJsIjogImh0dHBzOi8vcHJvdG9jb2wuc3Rvcnlwcm90b2NvbC54eXovaXBhLzB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCIsImltYWdlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9zdG9yeXByb3RvY29sL3Byb3RvY29sLWNvcmUvYmxvYi9tYWluL2Fzc2V0cy9saWNlbnNlLWltYWdlLmdpZiIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogIlJveWFsdHkgUG9saWN5IiwgInZhbHVlIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9LHsidHJhaXRfdHlwZSI6ICJEZWZhdWx0IE1pbnRpbmcgRmVlIiwgInZhbHVlIjogIjAifSx7InRyYWl0X3R5cGUiOiAiRXhwaXJhdGlvbiIsICJ2YWx1ZSI6ICJuZXZlciJ9LHsidHJhaXRfdHlwZSI6ICJDdXJyZW5jeSIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiVVJJIiwgInZhbHVlIjogIiJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIFVzZSIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJDb21tZXJjaWFsIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkNvbW1lcmNpYWwgUmV2ZW51ZSBTaGFyZSIsICJtYXhfdmFsdWUiOiAxMDAwLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbCBSZXZlbnVlIENlaWxpbmciLCAidmFsdWUiOiAwfSx7InRyYWl0X3R5cGUiOiAiQ29tbWVyY2lhbGl6ZXIgQ2hlY2tlciIsICJ2YWx1ZSI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAifSx7InRyYWl0X3R5cGUiOiAiRGVyaXZhdGl2ZXMgQWxsb3dlZCIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIEF0dHJpYnV0aW9uIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkRlcml2YXRpdmVzIFJldmVudWUgQ2VpbGluZyIsICJ2YWx1ZSI6IDB9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBBcHByb3ZhbCIsICJ2YWx1ZSI6ICJmYWxzZSJ9LHsidHJhaXRfdHlwZSI6ICJEZXJpdmF0aXZlcyBSZWNpcHJvY2FsIiwgInZhbHVlIjogImZhbHNlIn0seyJ0cmFpdF90eXBlIjogIkxpY2Vuc29yIiwgInZhbHVlIjogIjB4MDI0ZjZmOWEzZmQ3ZmJhZmZhNWMxYjI5YzcxMWQyYTk4NDliOWMyOCJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlbXBsYXRlIiwgInZhbHVlIjogIjB4MmU4OTZiMGIyZmRiNzQ1NzQ5OWI1NmFhYWE0YWU1NWJjYjRjZDMxNiJ9LHsidHJhaXRfdHlwZSI6ICJMaWNlbnNlIFRlcm1zIElEIiwgInZhbHVlIjogIjExIn0seyJ0cmFpdF90eXBlIjogIlRyYW5zZmVyYWJsZSIsICJ2YWx1ZSI6ICJ0cnVlIn0seyJ0cmFpdF90eXBlIjogIlJldm9rZWQiLCAidmFsdWUiOiAiZmFsc2UifV19",
+      "owner": "0xeAacc52d4F18aEd2377DA4eD70770F2ba22D56Df",
+      "metadata": {
+        "name": "Story Protocol License #20",
+        "description": "License agreement stating the terms of a Story Protocol IPAsset",
+        "external_url": "https://protocol.storyprotocol.xyz/ipa/0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28",
+        "image": "https://github.com/storyprotocol/protocol-core/blob/main/assets/license-image.gif",
+        "attributes": [
+          {
+            "trait_type": "Royalty Policy",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Default Minting Fee",
+            "value": "0"
+          },
+          {
+            "trait_type": "Expiration",
+            "value": "never"
+          },
+          {
+            "trait_type": "Currency",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "URI",
+            "value": ""
+          },
+          {
+            "trait_type": "Commercial Use",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Commercial Revenue Share",
+            "max_value": 1000,
+            "value": 0
+          },
+          {
+            "trait_type": "Commercial Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Commercializer Checker",
+            "value": "0x0000000000000000000000000000000000000000"
+          },
+          {
+            "trait_type": "Derivatives Allowed",
+            "value": "true"
+          },
+          {
+            "trait_type": "Derivatives Attribution",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Revenue Ceiling",
+            "value": 0
+          },
+          {
+            "trait_type": "Derivatives Approval",
+            "value": "false"
+          },
+          {
+            "trait_type": "Derivatives Reciprocal",
+            "value": "false"
+          },
+          {
+            "trait_type": "Licensor",
+            "value": "0x024f6f9a3fd7fbaffa5c1b29c711d2a9849b9c28"
+          },
+          {
+            "trait_type": "License Template",
+            "value": "0x2e896b0b2fdb7457499b56aaaa4ae55bcb4cd316"
+          },
+          {
+            "trait_type": "License Terms ID",
+            "value": "11"
+          },
+          {
+            "trait_type": "Transferable",
+            "value": "true"
+          },
+          {
+            "trait_type": "Revoked",
+            "value": "false"
+          }
+        ]
+      }
+    }
+  ],
+  "asset_count": 19,
+  "timestamp": "2025-02-26T15:22:58.934384"
+}

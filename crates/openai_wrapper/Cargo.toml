@@ -1,0 +1,26 @@
+[package]
+name = "openai_wrapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# rig-core = { path = "../rig/rig-core" }
+agent-twitter-client.workspace = true
+anyhow.workspace = true
+dotenv.workspace = true
+rig-core.workspace = true
+
+# anyhow = "1.0.95"
+# owo-colors = "4.1.0"
+# rig-derive = "*"
+# reqwest = { version = "0.11.22", features = ["json"] }
+# serde = { version = "1.0.193", features = ["derive"] }
+# tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread"] }
+# chrono = "0.4.39"
+# serde_json = "1.0.137"
+# dotenv = "0.15.0"
+# rand = "0.9.0"
+# elevenlabs_rs = "0.3.2"
+# regex = "1.11.1"
+# base64 = "0.22.1"

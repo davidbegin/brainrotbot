@@ -1,0 +1,426 @@
+{
+  "contracts": [
+    {
+      "address": "0x9ad18fbdA85DdBB8AFb3AcfDEAE68623618389eb",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x82C1781c612E53038D2A5CCBeD375fa1F472d0F7",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x3e81f3dFd6F45782086482bc1c878261503fe105",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0xa1119092ea911202E0a65B743a13AE28C5CF2f21",
+      "name": "MockERC721",
+      "symbol": "MockERC721",
+      "total_supply": 0,
+      "is_nft": true
+    },
+    {
+      "address": "0x1f190042646A6548445edCAdec2705887845E4EF",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 8,
+      "is_nft": true
+    },
+    {
+      "address": "0x63bD6032b6E36b17ED98c406D8C82cE5680C463a",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0xEa58743405c7242aBB83086E5D6DC533Cd2E8B09",
+      "name": "DeFiAI.RelateWallets",
+      "symbol": "DeFiAI.01.RW",
+      "total_supply": 6,
+      "is_nft": true
+    },
+    {
+      "address": "0x961f7211E69F50FaDf5534620074035E59B5977d",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 2,
+      "is_nft": true
+    },
+    {
+      "address": "0x8E7503695f91B59123A5bEc1EF780C76df1e9066",
+      "name": "Devin's Trading Ideas",
+      "symbol": "DEVIN",
+      "total_supply": 0,
+      "is_nft": true
+    },
+    {
+      "address": "0x3D2EBb7f284265D2FadC0dB226c0eC96DCD4A170",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 4,
+      "is_nft": true
+    },
+    {
+      "address": "0x3a2F16ED14A047718f4058B49c66f5876AD4F78D",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x477dFb8b0C448489a747B097EB3dD32373634a21",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 8,
+      "is_nft": true
+    },
+    {
+      "address": "0x052B96C87eB04671A5Cc29bEaEE04FB2234248e1",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 4,
+      "is_nft": true
+    },
+    {
+      "address": "0xFeb5434dAEEb4a61d1d11209aDc73928DE7124ED",
+      "name": "Trevor's Data Pod",
+      "symbol": "REPPO",
+      "total_supply": 1,
+      "is_nft": true
+    },
+    {
+      "address": "0x4427b3f535C40A8CdfdD8840946EB520D20177b7",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 6,
+      "is_nft": true
+    },
+    {
+      "address": "0x3018A68352C46934AB2F8Eb9E6A1F26aad7eB181",
+      "name": "Test NFT",
+      "symbol": "TEST",
+      "total_supply": 1,
+      "is_nft": true
+    },
+    {
+      "address": "0x4709798FeA84C84ae2475fF0c25344115eE1529f",
+      "name": "Programmable IP Group IP NFT",
+      "symbol": "GroupNFT",
+      "total_supply": 255,
+      "is_nft": true
+    },
+    {
+      "address": "0x1B4f29c7565802bD9116F5e61F43A0a88e5d9d73",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 4,
+      "is_nft": true
+    },
+    {
+      "address": "0xB2D9Df5dcB5Ec499a5D1f10c9A2B202a075F054f",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 4,
+      "is_nft": true
+    },
+    {
+      "address": "0x3A49C4df992091cF4A12572EF47Eb61a6fd64360",
+      "name": "Weather App",
+      "symbol": "WAPP",
+      "total_supply": 6,
+      "is_nft": true
+    },
+    {
+      "address": "0xb01CBaE6cfDb3E94b80C2A5Cf5aB0caf3b578C2B",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0xc9001Aa63A468dFB2fe45C0D740E87ebA72621Ee",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x9553122277a0272c9B0A62A866451eda8A3180B0",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x7bA11d5abFDAB5076A12377dA3E1C4D331B54599",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 2,
+      "is_nft": true
+    },
+    {
+      "address": "0x01B17Fa99Ddc69ab386724E0fde0Bdf3C8e941F1",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0xaCB8086FAB00eeb082ab6EEC9AfD4382511eF7b2",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 8,
+      "is_nft": true
+    },
+    {
+      "address": "0xbfb0E9a5353D27d9C9a8cC5270Dc975EB6130bAf",
+      "name": "Authorship NFT Demo 2",
+      "symbol": "ANFT",
+      "total_supply": 15,
+      "is_nft": true
+    },
+    {
+      "address": "0xA261478B7D0F57e809bDb8412A8aB99868B54d0D",
+      "name": "Unknown",
+      "symbol": "FREE",
+      "total_supply": 8,
+      "is_nft": true
+    },
+    {
+      "address": "0x9EFf912B9E83a0cA7Dce62265d3CC14f2643Df58",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0xcdB1f7CBdC283563C11d3C43651FFC6F57DEbeFB",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x6276209807036BcA9988D09924310c80F82bCcfF",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 1,
+      "is_nft": true
+    },
+    {
+      "address": "0x8D356b42d29cE707291315DB7432E16b78Db8414",
+      "name": "emergence identity collection",
+      "symbol": "identity",
+      "total_supply": 40,
+      "is_nft": true
+    },
+    {
+      "address": "0xfEB77a81d00BFc9095FAC53A0449954A6517b715",
+      "name": "Premium Collection",
+      "symbol": "PC",
+      "total_supply": 4,
+      "is_nft": true
+    },
+    {
+      "address": "0x45DB6D1e91A51bb12F39D751E192c84A2a28340b",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x045CA06498995e9E59d48D7799C9d557A15b02b2",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 4,
+      "is_nft": true
+    },
+    {
+      "address": "0x7c3b726201D6b837FBfE943D2367622D5485E998",
+      "name": "Derive Protocol",
+      "symbol": "DERIVE",
+      "total_supply": 2,
+      "is_nft": true
+    },
+    {
+      "address": "0x7C89878f6a80EC8F403a39678b86b2e987fFf916",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x0b3BcE84Da0F1F58177a3dAF434F0Ab0Baf1050D",
+      "name": "Ava Character",
+      "symbol": "AVA",
+      "total_supply": 0,
+      "is_nft": true
+    },
+    {
+      "address": "0x492637Be1c7E7189D92898251b3195eFAe54ece1",
+      "name": "CLARA AGENT IP NFT",
+      "symbol": "CAIN",
+      "total_supply": 0,
+      "is_nft": true
+    },
+    {
+      "address": "0x958b6C7b7FBFEF589D6a1B14E7921f05d1A2917b",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x35a6EcEF0F54258d30Ed0488Dc69Ca49Bb5e95a5",
+      "name": "CLARA AGENT IP NFT",
+      "symbol": "CAIN",
+      "total_supply": 0,
+      "is_nft": true
+    },
+    {
+      "address": "0x787867AA6b279Ada0e77978376112DeEB84963Fe",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0xFB46374655a2c7E40029697E0dbCbe6e6994eA72",
+      "name": "test6",
+      "symbol": "TEST6",
+      "total_supply": 1,
+      "is_nft": true
+    },
+    {
+      "address": "0x6D3399fdB47755C4bd174894d91C6c62a6F70B9e",
+      "name": "Punkgame AVA Grand Contest - Character",
+      "symbol": "PAVAC",
+      "total_supply": 30,
+      "is_nft": true
+    },
+    {
+      "address": "0xE37C80b8ea7992e83439420C5dfbAf829cde375d",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 8,
+      "is_nft": true
+    },
+    {
+      "address": "0xd68484CCd399D64271EdB2d20f398a256747d37F",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x5D773a8C062660bC812d701aE6F570099E5D10a8",
+      "name": "PickXai",
+      "symbol": "PICKXAI",
+      "total_supply": 0,
+      "is_nft": true
+    },
+    {
+      "address": "0x31fFae2890D2Bcb8738bA220B66F48BD298a4b91",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x3225fD23D11aD7FA1982404F756D39f6CB79481F",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x8d8eaDD90774E378a19339B577EABA4040AAD20E",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 5,
+      "is_nft": true
+    },
+    {
+      "address": "0xBc2a27b881a5CD25DF1C6E4607726181c47A403e",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 6,
+      "is_nft": true
+    },
+    {
+      "address": "0xf8Ce5121093dF51D8970c604b666cdfC79a5C0E3",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 5,
+      "is_nft": true
+    },
+    {
+      "address": "0x9aDBa3c4b0Dbfaa6277A3053E28Fe84381c29321",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 5,
+      "is_nft": true
+    },
+    {
+      "address": "0xf4d1c00C3D8250e84C077F485B1f12BE5C85bCD4",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 4,
+      "is_nft": true
+    },
+    {
+      "address": "0x3065Ad3dE1a4eEa1D5ee511a15A62d43B0f9abF5",
+      "name": "test",
+      "symbol": "TEST",
+      "total_supply": 1,
+      "is_nft": true
+    },
+    {
+      "address": "0x86257F1fe798099FdD68CaAE525b1A3bA74B9b2C",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x3ddba7954d1A300b5B505055F892d61844c08826",
+      "name": "test-collection",
+      "symbol": "TEST",
+      "total_supply": 3,
+      "is_nft": true
+    },
+    {
+      "address": "0x574FCB98deDb0200c860F433977bc77461D50D60",
+      "name": "My First Album",
+      "symbol": "MFA",
+      "total_supply": 1,
+      "is_nft": true
+    },
+    {
+      "address": "0xB6fE1af7eE47283614a24b2D49BF4936B7d7CD0F",
+      "name": "Designed by Story",
+      "symbol": "STORY",
+      "total_supply": 1,
+      "is_nft": true
+    },
+    {
+      "address": "0x865833D073f858eBb6b07FbBB7D556A05bc41663",
+      "name": "free-collection",
+      "symbol": "FREE",
+      "total_supply": 4,
+      "is_nft": true
+    }
+  ],
+  "contract_count": 60,
+  "timestamp": "2025-02-26T16:11:44.939734"
+}

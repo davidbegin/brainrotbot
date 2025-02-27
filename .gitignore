@@ -1,0 +1,10 @@
+.DS_Store
+/target
+/target/
+.env
+tmp/
+*.png
+*.jpg
+*.mp3
+*.mp4
+*.srt

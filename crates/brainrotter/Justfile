@@ -1,0 +1,15 @@
+default:
+	cargo run gonz.mp4 slime.mp4 h combined.mp4
+
+v:
+	cargo run gonz.mp4 slime.mp4 v combined2.mp4
+
+v2:
+	./brainrotter gonz.mp4 slime.mp4 v combined2.mp4
+
+release:
+	cargo build --release --target aarch64-apple-darwin
+	cp ../../target/aarch64-apple-darwin/release/brainrotter .
+
+fix:
+	cargo fix -p brainrotter

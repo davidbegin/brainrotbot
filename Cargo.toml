@@ -1,0 +1,51 @@
+[package]
+name = "juicero"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+twitter_scraper = { path = "crates/twitter_scraper" }
+subtitle_hub = { path = "crates/subtitle_hub" }
+openai_wrapper = { path = "crates/openai_wrapper" }
+fal_wrapper = { path = "crates/fal_wrapper" }
+elevenlabs_lab = { path = "crates/elevenlabs_lab" }
+ffmpeg_wrapper = { path = "crates/ffmpeg_wrapper" }
+brainrotter = { path = "crates/brainrotter" }
+
+owo-colors = "4.1.0"
+rand = "0.9.0"
+
+agent-twitter-client.workspace = true
+anyhow.workspace = true
+dotenv.workspace = true
+rig-derive.workspace = true
+rig-core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+reqwest.workspace = true
+chrono.workspace = true
+base64.workspace = true
+tokio.workspace = true
+regex.workspace = true
+elevenlabs_rs.workspace = true
+
+[workspace]
+
+members = ["crates/*"]
+
+[workspace.dependencies]
+
+agent-twitter-client = { path = "../agent-twitter-client/" }
+anyhow = "1.0.95"
+dotenv = "0.15.0"
+rig-derive = "*"
+rig-core = { path = "../rig/rig-core" }
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.137"
+reqwest = { version = "0.11.22", features = ["json"] }
+chrono = "0.4.39"
+base64 = "0.22.1"
+tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread"] }
+elevenlabs_rs = "0.3.2"
+regex = "1.11.1"
