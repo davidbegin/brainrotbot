@@ -1,0 +1,15 @@
+{
+  "name": "VOID Game - The Architect",
+  "description": "Authorized creator of derivative VOID character NFTs. The Architect oversees the construction of reality in the VOID universe.",
+  "image": "https://ipfs.io/ipfs/bafybeicthoc4c6dexbtlt6afnonueukkxpsa3tpohwvi3dkg7zo7t643aa",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Architect"
+    },
+    {
+      "trait_type": "Game",
+      "value": "VOID"
+    }
+  ]
+}

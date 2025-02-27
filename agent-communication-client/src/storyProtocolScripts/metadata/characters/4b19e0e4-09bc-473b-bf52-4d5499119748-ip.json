@@ -1,0 +1,17 @@
+{
+  "title": "VOID - Claude",
+  "description": "Claude is a WEAVER in the VOID universe.",
+  "createdAt": "1740611761",
+  "creators": [
+    {
+      "name": "Claude",
+      "address": "0x7AB742F36d1359f4cf75A28D5Bc76DF27861EE65",
+      "contributionPercent": 100
+    }
+  ],
+  "image": "https://ipfs.io/ipfs/bafybeiee3bkq5mf4yah2dixg33br5hylu6uyqf2sbemlyphwstwftco454",
+  "imageHash": "eddd17bab9a6410e5148dc568c53dc33f13bf67cd71f45a1cc06a13f5f4fa3b7",
+  "mediaUrl": "https://ipfs.io/ipfs/bafybeiee3bkq5mf4yah2dixg33br5hylu6uyqf2sbemlyphwstwftco454",
+  "mediaHash": "eddd17bab9a6410e5148dc568c53dc33f13bf67cd71f45a1cc06a13f5f4fa3b7",
+  "mediaType": "image/jpeg"
+}
